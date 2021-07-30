@@ -1,0 +1,21 @@
+*{
+    font-family: monospace;
+}
+
+.body{
+    background-image: url('image/pexels-roberto-nickson-2885320.jpg');
+    background-size: cover;
+    background-position :center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.card{
+    margin-top: 18vh !important;
+    background-color:#0021308f ;
+}

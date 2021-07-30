@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/zealcoded.png">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Password image strength</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- nav bar -->
+    <ul class="nav shadow">
+        <li class="nav-item shadow">
+          <a class="nav-link text-white" href="#">Zealcoded</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Password Strength By Image</a>
+        </li>
+      </ul>
+      <!-- main section -->
+      <div class="body" id="body"></div> 
+    <div class="container">
+        <div class="card mx-auto text-white w-50 mt-5 shadow">
+            <h2 class="text-center">Sign Up </h2>
+            <p class="text-center">Enter the password to see the effect</p>
+            <!-- form -->
+            <form class="p-3">
+                <label>Username</label>
+                <input type="text" class="form-control" placeholder="Username">
+
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="email">
+
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="password" id="password"> <br>
+                <button class="btn shadow btn-secondary text-white">Submit</button>
+            </form>
+        </div>
+    </div>
+   <script src="app.js"></script>
+</body>
+</html>
